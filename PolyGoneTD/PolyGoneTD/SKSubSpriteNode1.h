@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  SKSubSpriteNode1.h
 //  Poly-Gone
 //
-
+//  Created by Cameron Geehr on 10/17/13.
 //  Copyright (c) 2013 Cameron Geehr. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
 
-@interface ViewController : UIViewController
+@interface SKSubSpriteNode1 : SKSpriteNode
 
 @end
