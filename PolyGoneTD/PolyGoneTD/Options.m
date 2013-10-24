@@ -8,6 +8,7 @@
 
 #import "Options.h"
 #import "SKSubSpriteNode1.h"
+#import "SliderBlock.h"
 
 @implementation Options
 
@@ -60,8 +61,8 @@
         SKSpriteNode *sL = [[SKSpriteNode alloc] initWithImageNamed:@"SliderLine"];
         sL.position = CGPointMake(250,260);
         [self addChild:sL];
-        
-        SKSpriteNode *sB = [[SKSpriteNode alloc] initWithImageNamed:@"SliderBlock"];
+        //this isnt working
+        SliderBlock *sB = [[SliderBlock alloc] init];
         sB.position = CGPointMake(250,260);
         [self addChild:sB];
         
@@ -81,7 +82,7 @@
         sL1.position = CGPointMake(250,160);
         [self addChild:sL1];
         
-        SKSpriteNode *sB1 = [[SKSpriteNode alloc] initWithImageNamed:@"SliderBlock"];
+        SliderBlock *sB1 = [[SliderBlock alloc] init];
         sB1.position = CGPointMake(250,160);
         [self addChild:sB1];
         

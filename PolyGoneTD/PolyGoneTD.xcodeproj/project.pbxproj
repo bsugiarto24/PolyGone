@@ -82,6 +82,7 @@
 		303234991819AD2200AD4D99 /* -.png in Resources */ = {isa = PBXBuildFile; fileRef = 3032345D1819AD2100AD4D99 /* -.png */; };
 		3032349A1819AD2200AD4D99 /* SliderBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3032345E1819AD2100AD4D99 /* SliderBlock.png */; };
 		3032349B1819AD2200AD4D99 /* SliderLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3032345F1819AD2200AD4D99 /* SliderLine.png */; };
+		3032349E1819B46F00AD4D99 /* SliderBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032349D1819B46F00AD4D99 /* SliderBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +187,8 @@
 		3032345D1819AD2100AD4D99 /* -.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "-.png"; sourceTree = "<group>"; };
 		3032345E1819AD2100AD4D99 /* SliderBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderBlock.png; sourceTree = "<group>"; };
 		3032345F1819AD2200AD4D99 /* SliderLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderLine.png; sourceTree = "<group>"; };
+		3032349C1819B46F00AD4D99 /* SliderBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderBlock.h; sourceTree = "<group>"; };
+		3032349D1819B46F00AD4D99 /* SliderBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderBlock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +278,8 @@
 				3032342D1819AD2100AD4D99 /* EnemyPath.m */,
 				3032342E1819AD2100AD4D99 /* Toolbar.h */,
 				3032342F1819AD2100AD4D99 /* Toolbar.m */,
+				3032349C1819B46F00AD4D99 /* SliderBlock.h */,
+				3032349D1819B46F00AD4D99 /* SliderBlock.m */,
 				303234301819AD2100AD4D99 /* towerOne.png */,
 				303234311819AD2100AD4D99 /* towerTwo.png */,
 				303234321819AD2100AD4D99 /* towerThree.png */,
@@ -514,6 +519,7 @@
 				303234651819AD2200AD4D99 /* SKSubSpriteNode1.m in Sources */,
 				303233E81819AC6100AD4D99 /* main.m in Sources */,
 				303234621819AD2200AD4D99 /* Options.m in Sources */,
+				3032349E1819B46F00AD4D99 /* SliderBlock.m in Sources */,
 				303234631819AD2200AD4D99 /* Difficulty.m in Sources */,
 				303234611819AD2200AD4D99 /* MainMenu.m in Sources */,
 				303234671819AD2200AD4D99 /* SKSubSpriteNode3.m in Sources */,
