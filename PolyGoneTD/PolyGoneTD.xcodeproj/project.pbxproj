@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		303233DA1819AC6100AD4D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303233D91819AC6100AD4D99 /* Foundation.framework */; };
+		303233DC1819AC6100AD4D99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303233DB1819AC6100AD4D99 /* CoreGraphics.framework */; };
+		303233DE1819AC6100AD4D99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303233DD1819AC6100AD4D99 /* UIKit.framework */; };
+		303233E01819AC6100AD4D99 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303233DF1819AC6100AD4D99 /* SpriteKit.framework */; };
+		303233E61819AC6100AD4D99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 303233E41819AC6100AD4D99 /* InfoPlist.strings */; };
+		303233E81819AC6100AD4D99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 303233E71819AC6100AD4D99 /* main.m */; };
+		303233EC1819AC6100AD4D99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 303233EB1819AC6100AD4D99 /* AppDelegate.m */; };
+		303233EF1819AC6100AD4D99 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303233ED1819AC6100AD4D99 /* Main_iPhone.storyboard */; };
+		303233F21819AC6100AD4D99 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303233F01819AC6100AD4D99 /* Main_iPad.storyboard */; };
+		303233F51819AC6100AD4D99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303233F41819AC6100AD4D99 /* ViewController.m */; };
+		303233F81819AC6100AD4D99 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 303233F71819AC6100AD4D99 /* MyScene.m */; };
+		303233FA1819AC6100AD4D99 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 303233F91819AC6100AD4D99 /* Spaceship.png */; };
+		303233FC1819AC6100AD4D99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303233FB1819AC6100AD4D99 /* Images.xcassets */; };
+		303234031819AC6100AD4D99 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303234021819AC6100AD4D99 /* XCTest.framework */; };
+		303234041819AC6100AD4D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303233D91819AC6100AD4D99 /* Foundation.framework */; };
+		303234051819AC6100AD4D99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303233DD1819AC6100AD4D99 /* UIKit.framework */; };
+		3032340D1819AC6100AD4D99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3032340B1819AC6100AD4D99 /* InfoPlist.strings */; };
+		3032340F1819AC6100AD4D99 /* PolyGoneTDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032340E1819AC6100AD4D99 /* PolyGoneTDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		303234061819AC6100AD4D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303233CE1819AC6100AD4D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303233D51819AC6100AD4D99;
+			remoteInfo = PolyGoneTD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		303233D61819AC6100AD4D99 /* PolyGoneTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolyGoneTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303233D91819AC6100AD4D99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		303233DB1819AC6100AD4D99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		303233DD1819AC6100AD4D99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		303233DF1819AC6100AD4D99 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		303233E31819AC6100AD4D99 /* PolyGoneTD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PolyGoneTD-Info.plist"; sourceTree = "<group>"; };
+		303233E51819AC6100AD4D99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		303233E71819AC6100AD4D99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		303233E91819AC6100AD4D99 /* PolyGoneTD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PolyGoneTD-Prefix.pch"; sourceTree = "<group>"; };
+		303233EA1819AC6100AD4D99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		303233EB1819AC6100AD4D99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		303233EE1819AC6100AD4D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		303233F11819AC6100AD4D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		303233F31819AC6100AD4D99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		303233F41819AC6100AD4D99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		303233F61819AC6100AD4D99 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		303233F71819AC6100AD4D99 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		303233F91819AC6100AD4D99 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		303233FB1819AC6100AD4D99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		303234011819AC6100AD4D99 /* PolyGoneTDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyGoneTDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		303234021819AC6100AD4D99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3032340A1819AC6100AD4D99 /* PolyGoneTDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PolyGoneTDTests-Info.plist"; sourceTree = "<group>"; };
+		3032340C1819AC6100AD4D99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3032340E1819AC6100AD4D99 /* PolyGoneTDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolyGoneTDTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303233D31819AC6100AD4D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303233DC1819AC6100AD4D99 /* CoreGraphics.framework in Frameworks */,
+				303233DE1819AC6100AD4D99 /* UIKit.framework in Frameworks */,
+				303233E01819AC6100AD4D99 /* SpriteKit.framework in Frameworks */,
+				303233DA1819AC6100AD4D99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303233FE1819AC6100AD4D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303234031819AC6100AD4D99 /* XCTest.framework in Frameworks */,
+				303234051819AC6100AD4D99 /* UIKit.framework in Frameworks */,
+				303234041819AC6100AD4D99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303233CD1819AC6100AD4D99 = {
+			isa = PBXGroup;
+			children = (
+				303233E11819AC6100AD4D99 /* PolyGoneTD */,
+				303234081819AC6100AD4D99 /* PolyGoneTDTests */,
+				303233D81819AC6100AD4D99 /* Frameworks */,
+				303233D71819AC6100AD4D99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		303233D71819AC6100AD4D99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303233D61819AC6100AD4D99 /* PolyGoneTD.app */,
+				303234011819AC6100AD4D99 /* PolyGoneTDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303233D81819AC6100AD4D99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				303233D91819AC6100AD4D99 /* Foundation.framework */,
+				303233DB1819AC6100AD4D99 /* CoreGraphics.framework */,
+				303233DD1819AC6100AD4D99 /* UIKit.framework */,
+				303233DF1819AC6100AD4D99 /* SpriteKit.framework */,
+				303234021819AC6100AD4D99 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		303233E11819AC6100AD4D99 /* PolyGoneTD */ = {
+			isa = PBXGroup;
+			children = (
+				303233EA1819AC6100AD4D99 /* AppDelegate.h */,
+				303233EB1819AC6100AD4D99 /* AppDelegate.m */,
+				303233ED1819AC6100AD4D99 /* Main_iPhone.storyboard */,
+				303233F01819AC6100AD4D99 /* Main_iPad.storyboard */,
+				303233F31819AC6100AD4D99 /* ViewController.h */,
+				303233F41819AC6100AD4D99 /* ViewController.m */,
+				303233F61819AC6100AD4D99 /* MyScene.h */,
+				303233F71819AC6100AD4D99 /* MyScene.m */,
+				303233F91819AC6100AD4D99 /* Spaceship.png */,
+				303233FB1819AC6100AD4D99 /* Images.xcassets */,
+				303233E21819AC6100AD4D99 /* Supporting Files */,
+			);
+			path = PolyGoneTD;
+			sourceTree = "<group>";
+		};
+		303233E21819AC6100AD4D99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				303233E31819AC6100AD4D99 /* PolyGoneTD-Info.plist */,
+				303233E41819AC6100AD4D99 /* InfoPlist.strings */,
+				303233E71819AC6100AD4D99 /* main.m */,
+				303233E91819AC6100AD4D99 /* PolyGoneTD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		303234081819AC6100AD4D99 /* PolyGoneTDTests */ = {
+			isa = PBXGroup;
+			children = (
+				3032340E1819AC6100AD4D99 /* PolyGoneTDTests.m */,
+				303234091819AC6100AD4D99 /* Supporting Files */,
+			);
+			path = PolyGoneTDTests;
+			sourceTree = "<group>";
+		};
+		303234091819AC6100AD4D99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3032340A1819AC6100AD4D99 /* PolyGoneTDTests-Info.plist */,
+				3032340B1819AC6100AD4D99 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303233D51819AC6100AD4D99 /* PolyGoneTD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303234121819AC6100AD4D99 /* Build configuration list for PBXNativeTarget "PolyGoneTD" */;
+			buildPhases = (
+				303233D21819AC6100AD4D99 /* Sources */,
+				303233D31819AC6100AD4D99 /* Frameworks */,
+				303233D41819AC6100AD4D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolyGoneTD;
+			productName = PolyGoneTD;
+			productReference = 303233D61819AC6100AD4D99 /* PolyGoneTD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		303234001819AC6100AD4D99 /* PolyGoneTDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303234151819AC6100AD4D99 /* Build configuration list for PBXNativeTarget "PolyGoneTDTests" */;
+			buildPhases = (
+				303233FD1819AC6100AD4D99 /* Sources */,
+				303233FE1819AC6100AD4D99 /* Frameworks */,
+				303233FF1819AC6100AD4D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303234071819AC6100AD4D99 /* PBXTargetDependency */,
+			);
+			name = PolyGoneTDTests;
+			productName = PolyGoneTDTests;
+			productReference = 303234011819AC6100AD4D99 /* PolyGoneTDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303233CE1819AC6100AD4D99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Cameron Geehr";
+				TargetAttributes = {
+					303234001819AC6100AD4D99 = {
+						TestTargetID = 303233D51819AC6100AD4D99;
+					};
+				};
+			};
+			buildConfigurationList = 303233D11819AC6100AD4D99 /* Build configuration list for PBXProject "PolyGoneTD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303233CD1819AC6100AD4D99;
+			productRefGroup = 303233D71819AC6100AD4D99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303233D51819AC6100AD4D99 /* PolyGoneTD */,
+				303234001819AC6100AD4D99 /* PolyGoneTDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303233D41819AC6100AD4D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303233FA1819AC6100AD4D99 /* Spaceship.png in Resources */,
+				303233FC1819AC6100AD4D99 /* Images.xcassets in Resources */,
+				303233F21819AC6100AD4D99 /* Main_iPad.storyboard in Resources */,
+				303233EF1819AC6100AD4D99 /* Main_iPhone.storyboard in Resources */,
+				303233E61819AC6100AD4D99 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303233FF1819AC6100AD4D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3032340D1819AC6100AD4D99 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303233D21819AC6100AD4D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303233F81819AC6100AD4D99 /* MyScene.m in Sources */,
+				303233F51819AC6100AD4D99 /* ViewController.m in Sources */,
+				303233EC1819AC6100AD4D99 /* AppDelegate.m in Sources */,
+				303233E81819AC6100AD4D99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303233FD1819AC6100AD4D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3032340F1819AC6100AD4D99 /* PolyGoneTDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303234071819AC6100AD4D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303233D51819AC6100AD4D99 /* PolyGoneTD */;
+			targetProxy = 303234061819AC6100AD4D99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		303233E41819AC6100AD4D99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303233E51819AC6100AD4D99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		303233ED1819AC6100AD4D99 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303233EE1819AC6100AD4D99 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		303233F01819AC6100AD4D99 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303233F11819AC6100AD4D99 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3032340B1819AC6100AD4D99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3032340C1819AC6100AD4D99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		303234101819AC6100AD4D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303234111819AC6100AD4D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303234131819AC6100AD4D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolyGoneTD/PolyGoneTD-Prefix.pch";
+				INFOPLIST_FILE = "PolyGoneTD/PolyGoneTD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		303234141819AC6100AD4D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolyGoneTD/PolyGoneTD-Prefix.pch";
+				INFOPLIST_FILE = "PolyGoneTD/PolyGoneTD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		303234161819AC6100AD4D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PolyGoneTD.app/PolyGoneTD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolyGoneTD/PolyGoneTD-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PolyGoneTDTests/PolyGoneTDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		303234171819AC6100AD4D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PolyGoneTD.app/PolyGoneTD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolyGoneTD/PolyGoneTD-Prefix.pch";
+				INFOPLIST_FILE = "PolyGoneTDTests/PolyGoneTDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303233D11819AC6100AD4D99 /* Build configuration list for PBXProject "PolyGoneTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303234101819AC6100AD4D99 /* Debug */,
+				303234111819AC6100AD4D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303234121819AC6100AD4D99 /* Build configuration list for PBXNativeTarget "PolyGoneTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303234131819AC6100AD4D99 /* Debug */,
+				303234141819AC6100AD4D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		303234151819AC6100AD4D99 /* Build configuration list for PBXNativeTarget "PolyGoneTDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303234161819AC6100AD4D99 /* Debug */,
+				303234171819AC6100AD4D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303233CE1819AC6100AD4D99 /* Project object */;
+}
