@@ -1,3 +1,4 @@
+//This class allows the object clicked on to bring the user to the options menu
 //
 //  SKSubSpriteNode.m
 //  Poly-Gone

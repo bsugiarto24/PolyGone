@@ -38,13 +38,6 @@
 		3032346C1819AD2200AD4D99 /* towerOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 303234301819AD2100AD4D99 /* towerOne.png */; };
 		3032346D1819AD2200AD4D99 /* towerTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 303234311819AD2100AD4D99 /* towerTwo.png */; };
 		3032346E1819AD2200AD4D99 /* towerThree.png in Resources */ = {isa = PBXBuildFile; fileRef = 303234321819AD2100AD4D99 /* towerThree.png */; };
-		3032346F1819AD2200AD4D99 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 303234331819AD2100AD4D99 /* circle.png */; };
-		303234701819AD2200AD4D99 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 303234341819AD2100AD4D99 /* triangle.png */; };
-		303234711819AD2200AD4D99 /* square.gif in Resources */ = {isa = PBXBuildFile; fileRef = 303234351819AD2100AD4D99 /* square.gif */; };
-		303234721819AD2200AD4D99 /* pentagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 303234361819AD2100AD4D99 /* pentagon.png */; };
-		303234731819AD2200AD4D99 /* hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 303234371819AD2100AD4D99 /* hexagon.png */; };
-		303234741819AD2200AD4D99 /* heptagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 303234381819AD2100AD4D99 /* heptagon.png */; };
-		303234751819AD2200AD4D99 /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 303234391819AD2100AD4D99 /* octagon.png */; };
 		303234761819AD2200AD4D99 /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = 3032343A1819AD2100AD4D99 /* A.png */; };
 		303234771819AD2200AD4D99 /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = 3032343B1819AD2100AD4D99 /* B.png */; };
 		303234781819AD2200AD4D99 /* B red.png in Resources */ = {isa = PBXBuildFile; fileRef = 3032343C1819AD2100AD4D99 /* B red.png */; };
@@ -84,6 +77,14 @@
 		3032349A1819AD2200AD4D99 /* SliderBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 3032345E1819AD2100AD4D99 /* SliderBlock.png */; };
 		3032349B1819AD2200AD4D99 /* SliderLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3032345F1819AD2200AD4D99 /* SliderLine.png */; };
 		3032349E1819B46F00AD4D99 /* SliderBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3032349D1819B46F00AD4D99 /* SliderBlock.m */; };
+		303C47CC1820325500845F70 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = 303C47CB1820325500845F70 /* Enemy.m */; };
+		303C47D6182038CB00845F70 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 303C47D0182038CB00845F70 /* circle.png */; };
+		303C47D7182038CB00845F70 /* heptagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 303C47D1182038CB00845F70 /* heptagon.png */; };
+		303C47D8182038CB00845F70 /* hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 303C47D2182038CB00845F70 /* hexagon.png */; };
+		303C47D9182038CB00845F70 /* octagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 303C47D3182038CB00845F70 /* octagon.png */; };
+		303C47DA182038CB00845F70 /* pentagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 303C47D4182038CB00845F70 /* pentagon.png */; };
+		303C47DB182038CB00845F70 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 303C47D5182038CB00845F70 /* square.png */; };
+		303C47DD182038D000845F70 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 303C47DC182038D000845F70 /* triangle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,13 +145,6 @@
 		303234301819AD2100AD4D99 /* towerOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = towerOne.png; sourceTree = "<group>"; };
 		303234311819AD2100AD4D99 /* towerTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = towerTwo.png; sourceTree = "<group>"; };
 		303234321819AD2100AD4D99 /* towerThree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = towerThree.png; sourceTree = "<group>"; };
-		303234331819AD2100AD4D99 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
-		303234341819AD2100AD4D99 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
-		303234351819AD2100AD4D99 /* square.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = square.gif; sourceTree = "<group>"; };
-		303234361819AD2100AD4D99 /* pentagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pentagon.png; sourceTree = "<group>"; };
-		303234371819AD2100AD4D99 /* hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hexagon.png; sourceTree = "<group>"; };
-		303234381819AD2100AD4D99 /* heptagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heptagon.png; sourceTree = "<group>"; };
-		303234391819AD2100AD4D99 /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octagon.png; sourceTree = "<group>"; };
 		3032343A1819AD2100AD4D99 /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
 		3032343B1819AD2100AD4D99 /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
 		3032343C1819AD2100AD4D99 /* B red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "B red.png"; sourceTree = "<group>"; };
@@ -191,6 +185,15 @@
 		3032345F1819AD2200AD4D99 /* SliderLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderLine.png; sourceTree = "<group>"; };
 		3032349C1819B46F00AD4D99 /* SliderBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderBlock.h; sourceTree = "<group>"; };
 		3032349D1819B46F00AD4D99 /* SliderBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderBlock.m; sourceTree = "<group>"; };
+		303C47CA1820325500845F70 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		303C47CB1820325500845F70 /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
+		303C47D0182038CB00845F70 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = ../../../Sprites/circle.png; sourceTree = "<group>"; };
+		303C47D1182038CB00845F70 /* heptagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heptagon.png; path = ../../../Sprites/heptagon.png; sourceTree = "<group>"; };
+		303C47D2182038CB00845F70 /* hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hexagon.png; path = ../../../Sprites/hexagon.png; sourceTree = "<group>"; };
+		303C47D3182038CB00845F70 /* octagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = octagon.png; path = ../../../Sprites/octagon.png; sourceTree = "<group>"; };
+		303C47D4182038CB00845F70 /* pentagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pentagon.png; path = ../../../Sprites/pentagon.png; sourceTree = "<group>"; };
+		303C47D5182038CB00845F70 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square.png; path = ../../../Sprites/square.png; sourceTree = "<group>"; };
+		303C47DC182038D000845F70 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangle.png; path = ../../../Sprites/triangle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,40 +263,62 @@
 				303233F01819AC6100AD4D99 /* Main_iPad.storyboard */,
 				303234181819AD2100AD4D99 /* ViewController.h */,
 				303234191819AD2100AD4D99 /* ViewController.m */,
-				3032341A1819AD2100AD4D99 /* MainMenu.h */,
-				3032341B1819AD2100AD4D99 /* MainMenu.m */,
-				3032341C1819AD2100AD4D99 /* Options.h */,
-				3032341D1819AD2100AD4D99 /* Options.m */,
-				3032341E1819AD2100AD4D99 /* Difficulty.h */,
-				3032341F1819AD2100AD4D99 /* Difficulty.m */,
-				303234201819AD2100AD4D99 /* SKSubSpriteNode.h */,
-				303234211819AD2100AD4D99 /* SKSubSpriteNode.m */,
-				303234221819AD2100AD4D99 /* SKSubSpriteNode1.h */,
-				303234231819AD2100AD4D99 /* SKSubSpriteNode1.m */,
-				303234241819AD2100AD4D99 /* SKSubSpriteNode2.h */,
-				303234251819AD2100AD4D99 /* SKSubSpriteNode2.m */,
-				303234261819AD2100AD4D99 /* SKSubSpriteNode3.h */,
-				303234271819AD2100AD4D99 /* SKSubSpriteNode3.m */,
+				303C47E2182039D300845F70 /* Menu Classes */,
 				303234281819AD2100AD4D99 /* MyScene.h */,
 				303234291819AD2100AD4D99 /* MyScene.m */,
 				3032342A1819AD2100AD4D99 /* Bullets.h */,
 				3032342B1819AD2100AD4D99 /* Bullets.m */,
 				3032342C1819AD2100AD4D99 /* EnemyPath.h */,
 				3032342D1819AD2100AD4D99 /* EnemyPath.m */,
+				303C47CA1820325500845F70 /* Enemy.h */,
+				303C47CB1820325500845F70 /* Enemy.m */,
 				3032342E1819AD2100AD4D99 /* Toolbar.h */,
 				3032342F1819AD2100AD4D99 /* Toolbar.m */,
 				3032349C1819B46F00AD4D99 /* SliderBlock.h */,
 				3032349D1819B46F00AD4D99 /* SliderBlock.m */,
-				303234301819AD2100AD4D99 /* towerOne.png */,
-				303234311819AD2100AD4D99 /* towerTwo.png */,
-				303234321819AD2100AD4D99 /* towerThree.png */,
-				303234331819AD2100AD4D99 /* circle.png */,
-				303234341819AD2100AD4D99 /* triangle.png */,
-				303234351819AD2100AD4D99 /* square.gif */,
-				303234361819AD2100AD4D99 /* pentagon.png */,
-				303234371819AD2100AD4D99 /* hexagon.png */,
-				303234381819AD2100AD4D99 /* heptagon.png */,
-				303234391819AD2100AD4D99 /* octagon.png */,
+				303C47E0182039B400845F70 /* Tower Sprites */,
+				303C47DE182038F100845F70 /* Letters/Menu Graphics */,
+				303C47DF1820398700845F70 /* Enemy Sprites */,
+				303233FB1819AC6100AD4D99 /* Images.xcassets */,
+				303233E21819AC6100AD4D99 /* Supporting Files */,
+			);
+			path = PolyGoneTD;
+			sourceTree = "<group>";
+		};
+		303233E21819AC6100AD4D99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				303233E31819AC6100AD4D99 /* PolyGoneTD-Info.plist */,
+				303233E41819AC6100AD4D99 /* InfoPlist.strings */,
+				303233E71819AC6100AD4D99 /* main.m */,
+				303233E91819AC6100AD4D99 /* PolyGoneTD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		303234081819AC6100AD4D99 /* PolyGoneTDTests */ = {
+			isa = PBXGroup;
+			children = (
+				3032340E1819AC6100AD4D99 /* PolyGoneTDTests.m */,
+				303234091819AC6100AD4D99 /* Supporting Files */,
+			);
+			path = PolyGoneTDTests;
+			sourceTree = "<group>";
+		};
+		303234091819AC6100AD4D99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3032340A1819AC6100AD4D99 /* PolyGoneTDTests-Info.plist */,
+				3032340B1819AC6100AD4D99 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		303C47DE182038F100845F70 /* Letters/Menu Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				3032345E1819AD2100AD4D99 /* SliderBlock.png */,
+				3032345F1819AD2200AD4D99 /* SliderLine.png */,
 				3032343A1819AD2100AD4D99 /* A.png */,
 				3032343B1819AD2100AD4D99 /* B.png */,
 				3032343C1819AD2100AD4D99 /* B red.png */,
@@ -330,41 +355,53 @@
 				3032345B1819AD2100AD4D99 /* Y copy.png */,
 				3032345C1819AD2100AD4D99 /* !.png */,
 				3032345D1819AD2100AD4D99 /* -.png */,
-				3032345E1819AD2100AD4D99 /* SliderBlock.png */,
-				3032345F1819AD2200AD4D99 /* SliderLine.png */,
-				303233FB1819AC6100AD4D99 /* Images.xcassets */,
-				303233E21819AC6100AD4D99 /* Supporting Files */,
 			);
-			path = PolyGoneTD;
+			name = "Letters/Menu Graphics";
 			sourceTree = "<group>";
 		};
-		303233E21819AC6100AD4D99 /* Supporting Files */ = {
+		303C47DF1820398700845F70 /* Enemy Sprites */ = {
 			isa = PBXGroup;
 			children = (
-				303233E31819AC6100AD4D99 /* PolyGoneTD-Info.plist */,
-				303233E41819AC6100AD4D99 /* InfoPlist.strings */,
-				303233E71819AC6100AD4D99 /* main.m */,
-				303233E91819AC6100AD4D99 /* PolyGoneTD-Prefix.pch */,
+				303C47DC182038D000845F70 /* triangle.png */,
+				303C47D5182038CB00845F70 /* square.png */,
+				303C47D4182038CB00845F70 /* pentagon.png */,
+				303C47D2182038CB00845F70 /* hexagon.png */,
+				303C47D1182038CB00845F70 /* heptagon.png */,
+				303C47D3182038CB00845F70 /* octagon.png */,
+				303C47D0182038CB00845F70 /* circle.png */,
 			);
-			name = "Supporting Files";
+			name = "Enemy Sprites";
 			sourceTree = "<group>";
 		};
-		303234081819AC6100AD4D99 /* PolyGoneTDTests */ = {
+		303C47E0182039B400845F70 /* Tower Sprites */ = {
 			isa = PBXGroup;
 			children = (
-				3032340E1819AC6100AD4D99 /* PolyGoneTDTests.m */,
-				303234091819AC6100AD4D99 /* Supporting Files */,
+				303234301819AD2100AD4D99 /* towerOne.png */,
+				303234311819AD2100AD4D99 /* towerTwo.png */,
+				303234321819AD2100AD4D99 /* towerThree.png */,
 			);
-			path = PolyGoneTDTests;
+			name = "Tower Sprites";
 			sourceTree = "<group>";
 		};
-		303234091819AC6100AD4D99 /* Supporting Files */ = {
+		303C47E2182039D300845F70 /* Menu Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3032340A1819AC6100AD4D99 /* PolyGoneTDTests-Info.plist */,
-				3032340B1819AC6100AD4D99 /* InfoPlist.strings */,
+				3032341A1819AD2100AD4D99 /* MainMenu.h */,
+				3032341B1819AD2100AD4D99 /* MainMenu.m */,
+				3032341C1819AD2100AD4D99 /* Options.h */,
+				3032341D1819AD2100AD4D99 /* Options.m */,
+				3032341E1819AD2100AD4D99 /* Difficulty.h */,
+				3032341F1819AD2100AD4D99 /* Difficulty.m */,
+				303234201819AD2100AD4D99 /* SKSubSpriteNode.h */,
+				303234211819AD2100AD4D99 /* SKSubSpriteNode.m */,
+				303234221819AD2100AD4D99 /* SKSubSpriteNode1.h */,
+				303234231819AD2100AD4D99 /* SKSubSpriteNode1.m */,
+				303234241819AD2100AD4D99 /* SKSubSpriteNode2.h */,
+				303234251819AD2100AD4D99 /* SKSubSpriteNode2.m */,
+				303234261819AD2100AD4D99 /* SKSubSpriteNode3.h */,
+				303234271819AD2100AD4D99 /* SKSubSpriteNode3.m */,
 			);
-			name = "Supporting Files";
+			name = "Menu Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,8 +494,6 @@
 				303234841819AD2200AD4D99 /* L.png in Resources */,
 				3032348B1819AD2200AD4D99 /* O copy.png in Resources */,
 				3032349A1819AD2200AD4D99 /* SliderBlock.png in Resources */,
-				303234731819AD2200AD4D99 /* hexagon.png in Resources */,
-				303234751819AD2200AD4D99 /* octagon.png in Resources */,
 				303234871819AD2200AD4D99 /* M yellow.png in Resources */,
 				303233FC1819AC6100AD4D99 /* Images.xcassets in Resources */,
 				303234971819AD2200AD4D99 /* Y copy.png in Resources */,
@@ -466,14 +501,15 @@
 				3032346C1819AD2200AD4D99 /* towerOne.png in Resources */,
 				3032346D1819AD2200AD4D99 /* towerTwo.png in Resources */,
 				3032347F1819AD2200AD4D99 /* G copy.png in Resources */,
-				303234741819AD2200AD4D99 /* heptagon.png in Resources */,
+				303C47DD182038D000845F70 /* triangle.png in Resources */,
 				303233F21819AC6100AD4D99 /* Main_iPad.storyboard in Resources */,
 				303234851819AD2200AD4D99 /* L copy.png in Resources */,
+				303C47DA182038CB00845F70 /* pentagon.png in Resources */,
 				303234891819AD2200AD4D99 /* N copy.png in Resources */,
+				303C47D8182038CB00845F70 /* hexagon.png in Resources */,
 				303234921819AD2200AD4D99 /* S copy.png in Resources */,
 				3032348A1819AD2200AD4D99 /* O.png in Resources */,
 				303234981819AD2200AD4D99 /* !.png in Resources */,
-				303234701819AD2200AD4D99 /* triangle.png in Resources */,
 				303234941819AD2200AD4D99 /* U.png in Resources */,
 				3032347A1819AD2200AD4D99 /* D.png in Resources */,
 				3032348E1819AD2200AD4D99 /* P copy.png in Resources */,
@@ -482,19 +518,20 @@
 				303233EF1819AC6100AD4D99 /* Main_iPhone.storyboard in Resources */,
 				3032347E1819AD2200AD4D99 /* G.png in Resources */,
 				303234791819AD2200AD4D99 /* C.png in Resources */,
+				303C47D9182038CB00845F70 /* octagon.png in Resources */,
 				3032348D1819AD2200AD4D99 /* P.png in Resources */,
 				3032346E1819AD2200AD4D99 /* towerThree.png in Resources */,
 				303234771819AD2200AD4D99 /* B.png in Resources */,
-				303234711819AD2200AD4D99 /* square.gif in Resources */,
 				303234781819AD2200AD4D99 /* B red.png in Resources */,
+				303C47D6182038CB00845F70 /* circle.png in Resources */,
+				303C47DB182038CB00845F70 /* square.png in Resources */,
 				3032349B1819AD2200AD4D99 /* SliderLine.png in Resources */,
 				303234951819AD2200AD4D99 /* X.png in Resources */,
-				303234721819AD2200AD4D99 /* pentagon.png in Resources */,
 				3032348C1819AD2200AD4D99 /* O green.png in Resources */,
 				303234761819AD2200AD4D99 /* A.png in Resources */,
 				303234991819AD2200AD4D99 /* -.png in Resources */,
 				303233E61819AC6100AD4D99 /* InfoPlist.strings in Resources */,
-				3032346F1819AD2200AD4D99 /* circle.png in Resources */,
+				303C47D7182038CB00845F70 /* heptagon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303C47CC1820325500845F70 /* Enemy.m in Sources */,
 				3032346A1819AD2200AD4D99 /* EnemyPath.m in Sources */,
 				303234601819AD2200AD4D99 /* ViewController.m in Sources */,
 				303234681819AD2200AD4D99 /* MyScene.m in Sources */,

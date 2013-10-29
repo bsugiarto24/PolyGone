@@ -61,7 +61,7 @@
         SKSpriteNode *sL = [[SKSpriteNode alloc] initWithImageNamed:@"SliderLine"];
         sL.position = CGPointMake(250,260);
         [self addChild:sL];
-        //this isnt working
+        
         SliderBlock *sB = [[SliderBlock alloc] init];
         sB.position = CGPointMake(250,260);
         [self addChild:sB];

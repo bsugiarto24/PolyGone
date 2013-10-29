@@ -1,3 +1,4 @@
+//This class allows the object clicked on to bring the user to the map screen
 //
 //  SKSubSpriteNode3.m
 //  Poly-Gone

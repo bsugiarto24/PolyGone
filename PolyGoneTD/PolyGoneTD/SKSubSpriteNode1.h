@@ -1,3 +1,4 @@
+//This class allows the object clicked on to bring the user back to the main menu
 //
 //  SKSubSpriteNode1.h
 //  Poly-Gone
