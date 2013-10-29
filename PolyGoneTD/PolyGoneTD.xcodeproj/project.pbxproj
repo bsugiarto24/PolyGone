@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3009DE6018202B7B00666384 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009DE5F18202B7B00666384 /* AVFoundation.framework */; };
 		303233DA1819AC6100AD4D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303233D91819AC6100AD4D99 /* Foundation.framework */; };
 		303233DC1819AC6100AD4D99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303233DB1819AC6100AD4D99 /* CoreGraphics.framework */; };
 		303233DE1819AC6100AD4D99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303233DD1819AC6100AD4D99 /* UIKit.framework */; };
@@ -96,6 +97,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3009DE5F18202B7B00666384 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		303233D61819AC6100AD4D99 /* PolyGoneTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolyGoneTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303233D91819AC6100AD4D99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		303233DB1819AC6100AD4D99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -196,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3009DE6018202B7B00666384 /* AVFoundation.framework in Frameworks */,
 				303233DC1819AC6100AD4D99 /* CoreGraphics.framework in Frameworks */,
 				303233DE1819AC6100AD4D99 /* UIKit.framework in Frameworks */,
 				303233E01819AC6100AD4D99 /* SpriteKit.framework in Frameworks */,
@@ -238,6 +241,7 @@
 		303233D81819AC6100AD4D99 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3009DE5F18202B7B00666384 /* AVFoundation.framework */,
 				303233D91819AC6100AD4D99 /* Foundation.framework */,
 				303233DB1819AC6100AD4D99 /* CoreGraphics.framework */,
 				303233DD1819AC6100AD4D99 /* UIKit.framework */,
@@ -744,6 +748,7 @@
 				303234141819AC6100AD4D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		303234151819AC6100AD4D99 /* Build configuration list for PBXNativeTarget "PolyGoneTDTests" */ = {
 			isa = XCConfigurationList;
@@ -752,6 +757,7 @@
 				303234171819AC6100AD4D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
